@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Header */
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000; /* Fondo negro para reflejar lujo */
+    color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 10px #111, 0 4px 15px #222;
+    z-index: 1;
+}
+
+header .logo img {
+    width: 190px; /* Ajusta el tamaño de tu logo */
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #d4af37;
+}
+
+/* MAIN */
+main {
+    flex: 1;
+}
+
+/* Estilos para el Hero con Video */
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Video a pantalla completa */
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que el video cubra todo sin deformarse */
+    z-index: -10;
+}
+
+/* Contenido encima del video */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Oscurece un poco el video para mejor visibilidad del texto */
+}
+
+.hero-content h1 {
+    font-weight: 200;
+}
+/* Barra de búsqueda encima del video */
+.search-bar {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+/* Estilo de la barra de búsqueda */
+.search-form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Inputs y select con borde y efecto neón */
+.search-form select, .calendar {
+    padding: 15px;
+    border: 2px solid transparent;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-form option {
+    background-color: #000;
+}
+
+.search-form select:focus,
+.search-form input:focus {
+    border: 2px solid #dca91199; 
+    box-shadow: 0 0 8px #dca911, 0 0 15px #dca911, 0 0 20px #dca911; 
+}
+
+.search-form button {
+    font-size: 18px;
+    padding: 15px 25px;
+    border: 2px solid #dca91177; 
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.search-form button:hover {
+    background: #dca91144;
+    color: #fff;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -4px 10px #111, 0 -4px 15px #2222;
+    z-index: 1;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+
+.footer-container p {
+    font-size: 16px;
+}
+
+strong {
+    color: #dca911;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a img {
+    width: 25px;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.2);
+}
+
+/* Versión Móvil */
+@media (max-width: 768px) {
+    .search-form {
+        flex-direction: column; /* Poner los elementos en columna */
+        gap: 15px; /* Espaciado entre elementos */
+        align-items: center; /* Centrar los elementos */
+        width: 80%;
+        margin: auto;
+    }
+    .search-form select,
+    .search-form button {
+        width: 82%; /* Hacer que los elementos ocupen todo el ancho */
+        font-size: 15px;
+    }
+    * {
+        text-align: center;
+        background-size: contain;
+    }
+    header .logo img {
+        width: 80px;
+        position: relative;
+        left: -37px;
+    }
+    nav ul li a {
+        font-size: 10px;
+    }
+    nav ul {
+        padding: 0;
+        margin-left: -40px;
+        gap: 0;
+    }
+    .container, header, main, footer {
+        max-width: 100%;
+    }    
+    nav ul li a {
+        font-size: 12px;
+    }
+    .hero-content {
+        margin: 0; /* Centra horizontalmente */
+    }   
+    h1 {
+        position: relative;
+        top: 50px;
+    }
+}

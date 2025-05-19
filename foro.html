@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORO XTRA RENT</title>
+    <link rel="stylesheet" href="foro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favxr.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/xr.png" alt="Rent A Lux">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html" target="_blank">Inicio</a></li>
+                <li><a href="http://127.0.0.1:5500/sobrenosotros.html" target="_blank">Sobre Nosotros</a></li>
+                <li><a href="http://127.0.0.1:5500/contact.html" target="_blank">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="forum">
+            <div id="namePrompt" style="display: none;">
+                <h2>Por favor, ingresa tu nombre para comenzar :</h2>
+                <input type="text" id="username" placeholder="Tu nombre" required>
+                <button id="nameSubmit">Aceptar</button>
+            </div>
+
+            <h1>Bienvenido al Foro</h1>
+
+            <!-- Aquí se mostrarán los mensajes -->
+            <div id="messages"></div>
+
+            <!-- Formulario para escribir mensajes -->
+            <form id="forumForm" style="display: none;">
+                <textarea id="message" placeholder="Escribe tu mensaje" required></textarea>
+                <button type="submit">Publicar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="foro.js"></script>
+</body>
+</html>
