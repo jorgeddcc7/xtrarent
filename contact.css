@@ -212,3 +212,86 @@ strong {
 .footer-social a img:hover {
     transform: scale(1.2);
 }
+
+/* VERSIÓN MÓVIL */
+@media (max-width: 768px) {
+    /* HEADER */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    header .logo img {
+        width: 100px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    /* FORMULARIO */
+    .contact-section {
+        margin-top: 100px;
+        padding: 20px 10px;
+    }
+
+    .contact-form {
+        width: 90%;
+        padding: 10px 15px;
+        gap: 10px;
+    }
+
+    .titulos h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-section p {
+        font-size: 14px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .contact-form button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    /* VIDEO Y FONDO */
+    .hero-video {
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .hero-overlay {
+        height: 100vh;
+    }
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .footer-container p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .footer-social a img {
+        width: 20px;
+    }
+}

@@ -154,3 +154,76 @@ button:hover {
 #namePrompt input {
     margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+    /* HEADER */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    header .logo img {
+        width: 100px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    /* MAIN Y FORO */
+    main {
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .forum {
+        padding: 0px 15px;
+        height: auto;
+        max-height: none;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    #messages {
+        max-height: 300px;
+        padding-right: 0;
+    }
+
+    form {
+        gap: 8px;
+    }
+
+    textarea {
+        font-size: 14px;
+    }
+
+    input, textarea, button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* PROMPT DE NOMBRE */
+    #namePrompt {
+        top: 150px;
+        left: 5%;
+        width: 90%;
+    }
+
+    #namePrompt h2 {
+        font-size: 1rem;
+    }
+
+    #namePrompt input {
+        width: 100%;
+    }
+}

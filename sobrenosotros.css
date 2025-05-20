@@ -175,3 +175,94 @@ strong {
 .footer-social a img:hover {
     transform: scale(1.2);
 }
+
+/* VERSIÓN MÓVIL */
+@media (max-width: 768px) {
+    /* HEADER */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    header .logo img {
+        width: 100px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    /* CONTENIDO SOBRE NOSOTROS */
+    .sobre-nosotros {
+        width: 90%;
+        padding: 0px 10px;
+    }
+
+    .titulo-sobre-nosotros {
+        font-size: 1.8rem;
+        margin-top: -20px;
+    }
+
+    .contenedor-sobre-nosotros {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .texto-sobre-nosotros {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    /* VIDEO */
+    .hero-video {
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .hero-overlay {
+        height: 100vh;
+    }
+
+    /* ICONOS DORADOS */
+    .goldlogo img {
+        width: 50px;
+    }
+
+    .ig {
+        bottom: 70px;
+        left: 130px;
+        top: unset;
+    }
+
+    .tt {
+        bottom: 70px;
+        right: 130px;
+        top: unset;
+    }
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        font-size: 13px;
+    }
+
+    .footer-container p {
+        font-size: 13px;
+    }
+
+    .footer-social a img {
+        width: 20px;
+    }
+}
+
