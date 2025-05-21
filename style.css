@@ -92,6 +92,9 @@ main {
 .hero-content h1 {
     font-weight: 200;
 }
+.hero-subtext {
+    font-weight: 400;
+}
 /* Barra de búsqueda encima del video */
 .search-bar {
     position: absolute;
@@ -238,5 +241,9 @@ strong {
     h1 {
         position: relative;
         top: 50px;
+    }
+    .hero-subtext {
+        position: relative;
+        top: 100px;
     }
 }

@@ -1,43 +1,57 @@
-* { 
+/* GENERAL RESET */
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body {
+/* ESTRUCTURA BASE */
+html, body {
+    width: 100%;
+    min-height: 100%;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    position: relative; /* Para controlar los z-index en el contenedor */
-    overflow-x: hidden; /* Evitar desplazamientos horizontales no deseados */
 }
-/* Header */
+
+/* El body ahora tiene un margen inferior para el contenido desplazable */
+body {
+    flex: 1;
+    min-height: 100vh;
+}
+
+/* HEADER */
 header {
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    background-color: #000; /* Fondo negro para reflejar lujo */
-    color: white;
+    padding: 40px 40px; /* Ajustamos para hacer el header más compacto */
+    background-color: #000;
+    box-shadow: 0 4px 10px #111, 0 4px 15px #222;
+    z-index: 10;
     position: sticky;
     top: 0;
-    box-shadow: 0 4px 10px #111, 0 4px 15px #222;
-    z-index: 1;
+}
+
+main {
+    margin-top: -55px;
 }
 
 header .logo img {
-    width: 150px; /* Ajusta el tamaño de tu logo */
+    position: absolute;
+    top: -20px;
+    width: 150px; /* Hacemos el logo más pequeño */
 }
 
 nav ul {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     list-style-type: none;
-}
-
-nav ul li {
-    padding: 5px 10px;
 }
 
 nav ul li a {
@@ -50,31 +64,9 @@ nav ul li a {
 nav ul li a:hover {
     color: #d4af37;
 }
-
-/* Video de fondo */
-.hero-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2; /* Aseguramos que el video esté detrás */
-}
-
-/* Overlay oscuro encima del video */
-.hero-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
-    z-index: -1; 
-}
-
-/* Contenedor de "Sobre Nosotros" */
+/* CONTENIDO SOBRE NOSOTROS */
 .sobre-nosotros {
+    flex: 1;
     position: relative;
     text-align: center;
     padding: 50px 0;
@@ -84,185 +76,101 @@ nav ul li a:hover {
 }
 
 .contenedor-sobre-nosotros {
-    background-color: #0002; 
-    color: white;
-    border-radius: 15px; 
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
-    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .titulo-sobre-nosotros {
     font-size: 3rem;
     font-weight: bold;
-    color: #dca911; /* Título en dorado */
+    color: #dca911;
     margin-bottom: 20px;
 }
 
 .texto-sobre-nosotros {
+    font-size: 1rem;
+    line-height: 1.7;
     white-space: pre-line;
+    text-align: justify;
 }
 
 .cool {
     color: #fff;
 }
 
-/* Logos dorados */
-.goldlogo img {
-    position: absolute;
-    width: 100px;
-    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
-}
-
-.goldlogo img:hover {
-    transform: scale(1.15);
-    filter: brightness(1.6);
-}
-
-.ig {
-    top: 42%;
-    left: 70px;
-}
-
-.tt {
-    top: 42%;
-    right: 70px;
-}
-
 /* FOOTER */
 footer {
+    position: relative;
     background-color: #000;
     color: white;
     text-align: center;
-    padding: 8px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 12px 0;
     box-shadow: 0 -4px 10px #111, 0 -4px 15px #2222;
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    height: 50px;
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; 
+    margin-top: auto;
 }
 
 .footer-container p {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 strong {
     color: #dca911;
 }
 
-.footer-social {
-    display: flex;
-    gap: 15px;
-}
-
-.footer-social a img {
-    width: 25px;
-    transition: transform 0.3s ease;
-}
-
-.footer-social a img:hover {
-    transform: scale(1.2);
-}
-
-/* VERSIÓN MÓVIL */
+/* MEDIA QUERY PARA MÓVILES */
 @media (max-width: 768px) {
-    /* HEADER */
     header {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        height: auto;
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 10px;
     }
 
     header .logo img {
-        width: 100px;
+        width: 120px;
+        position: relative;
+        margin-bottom: -20px;
     }
 
     nav ul {
-        display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         gap: 15px;
+        justify-content: center;
     }
 
     nav ul li a {
-        font-size: 12px;
-    }
-
-    /* CONTENIDO SOBRE NOSOTROS */
-    .sobre-nosotros {
-        width: 90%;
-        padding: 0px 10px;
-    }
-
-    .titulo-sobre-nosotros {
-        font-size: 1.8rem;
-        margin-top: -20px;
-    }
-
-    .contenedor-sobre-nosotros {
-        padding: 15px;
         font-size: 14px;
     }
 
+    main {
+        margin-top: -30px;
+    }
+
+    .sobre-nosotros {
+        width: 90%;
+        padding: 30px 0;
+    }
+
+    .titulo-sobre-nosotros {
+        font-size: 2rem;
+    }
+
+    .contenedor-sobre-nosotros {
+        padding: 20px;
+    }
+
     .texto-sobre-nosotros {
-        font-size: 12px;
-        line-height: 1.5;
+        font-size: 14px;
     }
 
-    /* VIDEO */
-    .hero-video {
-        height: 100vh;
-        object-fit: cover;
-    }
-
-    .hero-overlay {
-        height: 100vh;
-    }
-
-    /* ICONOS DORADOS */
-    .goldlogo img {
-        width: 50px;
-    }
-
-    .ig {
-        bottom: 70px;
-        left: 130px;
-        top: unset;
-    }
-
-    .tt {
-        bottom: 70px;
-        right: 130px;
-        top: unset;
-    }
-
-    /* FOOTER */
     footer {
-        flex-direction: column;
-        padding: 10px;
-        height: auto;
         font-size: 13px;
+        padding: 10px 0;
     }
 
     .footer-container p {
         font-size: 13px;
     }
-
-    .footer-social a img {
-        width: 20px;
-    }
 }
-
