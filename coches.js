@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { marca: "Mustang", modelo: " ", precio: 920, ciudad: "barcelona", imagen: "mustang-bcn.webp" },
         { marca: "Lamborghini", modelo: "Huracán", precio: 1220, ciudad: "barcelona", imagen: "lambohuracan-bcn.webp" },
         { marca: "Audi", modelo: "A5 Sportback", precio: 155, ciudad: "valencia", imagen: "audia5-vlc.webp" },
-        { marca: "Audi", modelo: "R8 VPlus", precio: 920, ciudad: "valencia", imagen: "audiar8-vlc.webp" },
+        { marca: "Audi", modelo: "R8 VPlus", precio: 920, ciudad: "valencia", imagen: "audir8-vlc.webp" },
     ];
 
     const listaCoches = document.getElementById("lista-coches");
