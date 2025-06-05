@@ -3,26 +3,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const ciudadSeleccionada = urlParams.get("ciudad") ? urlParams.get("ciudad").toLowerCase() : "";
 
     const coches = [
-        { marca: "Jeep", modelo: "Renegade", precio: 312, ciudad: "sevilla", imagen: "jeeprenegade-sev.webp" },
-        { marca: "Ferrari", modelo: "Portofino", precio: 1200, ciudad: "sevilla", imagen: "ferrariportofino-sev.webp" },
-        { marca: "Mini", modelo: "John Cooper Works Cabrio", precio: 175, ciudad: "sevilla", imagen: "mini-sev.webp" },
-        { marca: "Ford", modelo: "Puma", precio: 66, ciudad: "bilbao", imagen: "fordpuma-blb.webp" },
-        { marca: "BMW", modelo: "M4 Competition", precio: 700, ciudad: "bilbao", imagen: "bmwcompetition-blb.webp" },
-        { marca: "Mercedes", modelo: "AMG", precio: 1220, ciudad: "bilbao", imagen: "mercedesamg-blb.jpg" },
-        { marca: "Lamborghini", modelo: "Urus", precio: 1400, ciudad: "madrid", imagen: "urus-madrid.webp" },
-        { marca: "Lamborghini", modelo: "Aventador SV Roaster", precio: 5000, ciudad: "madrid", imagen: "aventador-madrid.webp" },
-        { marca: "Ford", modelo: "Focus", precio: 100, ciudad: "madrid", imagen: "fordfocus-madrid.webp" },
-        { marca: "Mercedes", modelo: "G63 AMG", precio: 1100, ciudad: "madrid", imagen: "amg-madrid.webp" },
-        { marca: "Tesla", modelo: "Model X p100d", precio: 500, ciudad: "madrid", imagen: "tesla-madrid.webp" },
-        { marca: "Chevrolet", modelo: "Corvette Stringray Z06", precio: 650, ciudad: "madrid", imagen: "chevrolet-mdz.jpg" },
-        { marca: "Aston-Martin", modelo: "DB11 Volante", precio: 1220, ciudad: "madrid", imagen: "astonmartin-mdz.webp" },
-        { marca: "Mercedes", modelo: "B180", precio: 450, ciudad: "barcelona", imagen: "mercedesb180-bcn.webp" },
-        { marca: "Mercedes", modelo: "Clase A", precio: 180, ciudad: "barcelona", imagen: "mercedesclasea-bcn.webp" },
-        { marca: "Porsche", modelo: "Cayenne Turbo GT", precio: 1300, ciudad: "barcelona", imagen: "cayenne-bcn.webp" },
-        { marca: "Mustang", modelo: " ", precio: 920, ciudad: "barcelona", imagen: "mustang-bcn.webp" },
-        { marca: "Lamborghini", modelo: "Huracán", precio: 1220, ciudad: "barcelona", imagen: "lambohuracan-bcn.webp" },
-        { marca: "Audi", modelo: "A5 Sportback", precio: 155, ciudad: "valencia", imagen: "audia5-vlc.webp" },
-        { marca: "Audi", modelo: "R8 VPlus", precio: 920, ciudad: "valencia", imagen: "audir8-vlc.webp" },
+        { marca: "Audi", modelo: "A1 Sportback", precio: 80, ciudad: "ibiza", imagen: "a1ibiza.png" },
+        { marca: "Mercedes", modelo: "Clase T", precio: 107, ciudad: "malaga", imagen: "clasetmalaga.avif" },
+        { marca: "Jeep", modelo: "Renegade", precio: 93, ciudad: "malaga", imagen: "jeepmalaga.avif" },
+        { marca: "Audi", modelo: "A1 Sportback", precio: 60, ciudad: "mallorca", imagen: "a1ibiza.png" },
+        { marca: "Audi", modelo: "A5", precio: 75, ciudad: "mallorca", imagen: "a5mallorca.avif" },
+        { marca: "Mercedes", modelo: "Clase A", precio: 75, ciudad: "mallorca", imagen: "claseamallorca.avif" },
+        { marca: "Audi", modelo: "A1", precio: 65, ciudad: "mallorca", imagen: "a1.avif" },
+        { marca: "Mercedes", modelo: "Clase T", precio: 107, ciudad: "valencia", imagen: "clasetmalaga.avif" },
     ];
 
     const listaCoches = document.getElementById("lista-coches");
@@ -68,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="car-details">
                         <h2>${coche.marca} ${coche.modelo}</h2>
                         <p>Precio por día: <strong>€${coche.precio}</strong></p>
-                        <button>Reservar ahora</button>
+                        <a href="https://www.wiberrentacar.com/es/?aff=XTRARENT&&utm_source=affiliate&utm_medium=link&utm_campaign=generic_es&utm_content=xtrarent"><button>Reservar ahora</button></a>
                     </div>
                 </div>
             `).join("");

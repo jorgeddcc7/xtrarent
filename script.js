@@ -5,11 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Lista de ciudades organizadas por país
     const ciudadesPorPais = {
         españa: [
-            { nombre: "Madrid", valor: "madrid" },
-            { nombre: "Barcelona", valor: "barcelona" },
+            { nombre: "Málaga", valor: "malaga" },
+            { nombre: "Mallorca", valor: "mallorca" },
+            { nombre: "Ibiza", valor: "ibiza" },
             { nombre: "Valencia", valor: "valencia" },
-            { nombre: "Bilbao", valor: "bilbao" },
-            { nombre: "Sevilla", valor: "sevilla" },
         ]
     };
 
