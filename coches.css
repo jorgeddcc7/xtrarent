@@ -294,9 +294,15 @@ strong {
         text-align: center;
         background-size: contain;
     }
+    .car-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* 🔥 Esto centra los elementos */
+    }
     .car-profile {
-        max-width: 90%;
-        margin: auto;
+        max-width: 97%;
+        width: 100%;
+        margin: 20px 0; /* Espaciado vertical */
     }
     .filters section {
         max-width: 50%;
