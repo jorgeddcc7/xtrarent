@@ -352,7 +352,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <strong>${formatCurrency(coche.precio * exchangeRates.USD, 'USD')}</strong> / 
                             <strong>${formatCurrency(coche.precio * exchangeRates.AED, 'AED')}</strong>
                         </p>
-                        <a href="${coche.link}" target="_blank" class="boton-reserva">Reservar ahora</a>
+                        <a href="${coche.link}" target="_blank" class="boton-reserva">Reservar por correo</a>
                     </div>
                 </div>
             `).join("");
