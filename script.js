@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
             { nombre: "Mallorca", valor: "mallorca" },
             { nombre: "Ibiza", valor: "ibiza" },
             { nombre: "Valencia", valor: "valencia" },
+        ],
+        uae: [
+            { nombre: "Dubai", valor: "dubai"},
         ]
     };
 
