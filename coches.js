@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Ferrari",
             modelo: "Purosangre",
-            precio: 999,
+            precio: 2499,
             ciudad: "dubai",
             imagenes: ["purosangredubai.webp", "purosangredubai2.webp", "purosangredubai3.webp", "purosangredubai4.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Ferrari",
             modelo: "296 GTB",
-            precio: 400,
+            precio: 1099,
             ciudad: "dubai",
             imagenes: ["296dubai.webp", "296dubai2.webp", "296dubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Lamborghini",
             modelo: "Huracan Evo Spyder",
-            precio: 375,
+            precio: 830,
             ciudad: "dubai",
             imagenes: ["spyderdubai.webp", "spyderdubai2.webp", "spyderdubai3.webp", "spyderdubai4.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Lamborghini",
             modelo: "Urus Mansory",
-            precio: 450,
+            precio: 1099,
             ciudad: "dubai",
             imagenes: ["urusdubai2.webp", "urusdubai.webp", "urusdubai3.webp", "urusdubai4.webp", "urusdubai5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Lamborghini",
             modelo: "Urus Yellow",
-            precio: 450,
+            precio: 999,
             ciudad: "dubai",
             imagenes: ["urusydubai.webp", "urusydubai2.webp", "urusydubai3.webp", "urusydubai4.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Mercedes",
             modelo: "S500",
-            precio: 70,
+            precio: 300,
             ciudad: "dubai",
             imagenes: ["s500dubai.webp", "s500dubai2.webp", "s500dubai3.webp", "s500dubai4.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -230,7 +230,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Range Rover",
             modelo: "Sport",
-            precio: 85,
+            precio: 250,
             ciudad: "dubai",
             imagenes: ["rrsportdubai.webp", "rrsportdubai2.webp", "rrsportdubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const exchangeRates = {
         EUR: 1,
         USD: 1.15,  // ajusta si tienes datos en tiempo real
-        AED: 10.52
+        AED: 4.23
     };
     function formatCurrency(value, currencyCode) {
         return new Intl.NumberFormat('es-ES', {
