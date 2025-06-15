@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "McLaren",
             modelo: "Artura Spyder",
-            precio: 420,
+            precio: 1099,
             ciudad: "dubai",
             imagenes: ["mclarendubai.webp", "mclarendubai2.webp", "mclarendubai3.webp", "mclarendubai4.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Lotus",
             modelo: "Emira",
-            precio: 120,
+            precio: 259,
             ciudad: "dubai",
             imagenes: ["lotusdubai.webp", "lotusdubai2.webp", "lotusdubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Mercedes",
             modelo: "G63 AMG 2025",
-            precio: 250,
+            precio: 549,
             ciudad: "dubai",
             imagenes: ["g6325dubai.webp", "g6325dubai2.webp", "g6325dubai3.webp", "g6325dubai4.webp", "g6325dubai5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Mercedes",
             modelo: "Brabus",
-            precio: 260,
+            precio: 560,
             ciudad: "dubai",
             imagenes: ["brabusdubai.webp", "brabusdubai2.webp", "brabusdubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Mercedes",
             modelo: "G63 AMG",
-            precio: 220,
+            precio: 499,
             ciudad: "dubai",
             imagenes: ["g63dubai.webp", "g63dubai2.webp", "g63dubai3.webp", "g63dubai4.webp", "g63dubai5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Audi",
             modelo: "A3",
-            precio: 30,
+            precio: 115,
             ciudad: "dubai",
             imagenes: ["a3dubai.webp", "a3dubai2.webp","a3dubai3.webp", "a3dubai4.webp", "a3dubai5.webp", "a3dubai6.webp", "a3dubai7.webp", "a3dubai8.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Audi",
             modelo: "A6",
-            precio: 45,
+            precio: 120,
             ciudad: "dubai",
             imagenes: ["a6dubai.webp", "a6dubai2.webp","a6dubai3.webp","a6dubai4.webp","a6dubai5.webp","a6dubai6.webp", ],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Audi",
             modelo: "Q3",
-            precio: 49,
+            precio: 129,
             ciudad: "dubai",
             imagenes: ["q3dubai.webp", "q3dubai2.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Audi",
             modelo: "RSQ3",
-            precio: 75,
+            precio: 199,
             ciudad: "dubai",
             imagenes: ["rsq3dubai.webp", "rsq3dubai3.webp", "rsq3dubai2.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
             {
             marca: "BMW",
             modelo: "420i",
-            precio: 75,
+            precio: 189,
             ciudad: "dubai",
             imagenes: ["420dubai.webp", "420dubai2.webp","420dubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "BMW",
             modelo: "735i",
-            precio: 100,
+            precio: 299,
             ciudad: "dubai",
             imagenes: ["735dubai.webp", "735dubai2.webp", "735dubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Chevrolet",
             modelo: "Corvette",
-            precio: 125,
+            precio: 349,
             ciudad: "dubai",
             imagenes: ["corvettedubai.webp", "corvettedubai2.webp", "corvettedubai3.webp",],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Cadillac",
             modelo: "Escalade",
-            precio: 90,
+            precio: 225,
             ciudad: "dubai",
             imagenes: ["escaladedubai.webp", "escaladedubai2.webp", "escaladedubai3.webp",],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Lange Rover",
             modelo: "Defender",
-            precio: 99,
+            precio: 259,
             ciudad: "dubai",
             imagenes: ["defenderdubai.webp", "defenderdubai2.webp", "defenderdubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Range Rover",
             modelo: "Velar",
-            precio: 85,
+            precio: 229,
             ciudad: "dubai",
             imagenes: ["rrvelardubai.webp", "rrvelardubai2.webp", "rrvelardubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Ford",
             modelo: "Bronco",
-            precio: 80,
+            precio: 159,
             ciudad: "dubai",
             imagenes: ["broncodubai.webp", "broncodubai2.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Ford",
             modelo: "Mustang Coupe",
-            precio: 75,
+            precio: 169,
             ciudad: "dubai",
             imagenes: ["coupedubai.webp", "coupedubai2.webp", "coupedubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Ford",
             modelo: "Mustang GT V8",
-            precio: 85,
+            precio: 189,
             ciudad: "dubai",
             imagenes: ["fordgtdubai.webp", "fordgtdubai2.webp", "fordgtdubai3.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
@@ -270,7 +270,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Jetour",
             modelo: "T2",
-            precio: 69,
+            precio: 139,
             ciudad: "dubai",
             imagenes: ["jetourdubai.webp", "jetourdubai3.webp", "jetourdubai2.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
