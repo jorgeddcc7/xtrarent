@@ -51,6 +51,12 @@ nav ul li a:hover {
     color: #d4af37;
 }
 
+nav ul li a:focus {
+    outline: 2px solid #dca911;
+    outline-offset: 2px;
+    background-color: rgba(220, 169, 17, 0.2);
+}
+
 /* MAIN */
 main {
     flex: 1;
@@ -78,7 +84,6 @@ main h1 {
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #fff;
-    background: rgba(255, 255, 255, 0.1);
     color: white;
     outline: none;;
     background-color: #000;
@@ -104,8 +109,7 @@ main h1 {
     border-radius: 10px;
     text-align: center;
     width: 100%;
-    transition: transform 0.3s ease;
-    transition: background-color 0.6s ease;
+    transition: transform 0.3s ease, background-color 0.6s ease;
     z-index: 2;
 }
 
@@ -115,8 +119,9 @@ main h1 {
 
 .car-image img {
     width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
     border-radius: 10px;
-    height: 450px;
 }
 
 .car-details h2 {
@@ -222,14 +227,6 @@ main h1 {
     background: #b8940f;
 }
 
-
-/* Responsive */
-@media (max-width: 768px) {
-    .car-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 /* FOOTER */
 footer {
     background-color: #000;
@@ -239,7 +236,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 -4px 10px #111, 0 -4px 15px #2222;
+    box-shadow: 0 -4px 10px #111, 0 -4px 15px rgba(34, 34, 34, 0.2);
     z-index: 1;
 }
 
@@ -290,19 +287,21 @@ strong {
 }
 
 @media (max-width: 500px) {
-    * {
+    body, main, header, footer, .filters, .car-profile {
         text-align: center;
+    }
+    .hero-video, .hero-overlay {
         background-size: contain;
     }
     .car-grid {
         display: flex;
         flex-direction: column;
-        align-items: center; /* 🔥 Esto centra los elementos */
+        align-items: center; 
     }
     .car-profile {
         max-width: 97%;
         width: 100%;
-        margin: 20px 0; /* Espaciado vertical */
+        margin: 20px 0; 
     }
     .filters section {
         max-width: 50%;

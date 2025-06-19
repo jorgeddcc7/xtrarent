@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const ciudadSeleccionada = urlParams.get("ciudad") ? urlParams.get("ciudad").toLowerCase() : "";
+    const ciudadSeleccionada = urlParams.get("ciudad")?.toLowerCase() || "";
 
     const coches = [
         {
