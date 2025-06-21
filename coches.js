@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             marca: "Ferrari",
-            modelo: "Purosangre",
+            modelo: "Purosangue",
             precio: 2499,
             ciudad: "dubai",
             imagenes: ["purosangredubai.webp", "purosangredubai2.webp", "purosangredubai3.webp", "purosangredubai4.webp"],
