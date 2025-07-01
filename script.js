@@ -11,7 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         uae: [
             { nombre: "Dubai", valor: "dubai" },
-        ]
+        ],
+        us: [
+            {nombre: "Miami", valor: "miami"}
+        ],
     };
 
     // Función para actualizar las ciudades

@@ -68,6 +68,262 @@ document.addEventListener("DOMContentLoaded", () => {
             link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
         },
         {
+            marca: "Lamborghini",
+            modelo: "Huracan Evo Spyder RWD Rosso Mars",
+            precio: 1199,
+            ciudad: "miami",
+            imagenes: ["huracanmiami.webp", "huracanmiami2.webp", "huracanmiami3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Lamborghini",
+            modelo: "Black Urus",
+            precio: 979,
+            ciudad: "miami",
+            imagenes: ["blackurusmia2.webp", "blackurusmia3.webp", "blackurusmia.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Lamborghini",
+            modelo: "Urus Performante Arancio Borealis",
+            precio: 1195,
+            ciudad: "miami",
+            imagenes: ["urusperformantemia.webp", "urusperformante2mia.webp", "urusperformantemia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Lamborghini",
+            modelo: "Huracan Evo Spyder Orange",
+            precio: 1199,
+            ciudad: "miami",
+            imagenes: ["evospyderomia.webp", "evospyderomia2.webp", "evospyderomia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Lamborghini",
+            modelo: "Huracan Evo Spyder Le Mans Blue",
+            precio: 1199,
+            ciudad: "miami",
+            imagenes: ["evospyderbmia.webp", "evospyderbmia2.webp", "evospyderbmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Lamborghini",
+            modelo: "Huracan Evo Spyder Bianco Icarus",
+            precio: 1199,
+            ciudad: "miami",
+            imagenes: ["evospyderwmia.webp", "evospyderwmia2.webp", "evospyderwmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Ferrari",
+            modelo: "F8 Tributo Spider Rosso Corsa",
+            precio: 1695,
+            ciudad: "miami",
+            imagenes: ["ferrarif8mia.webp", "ferrarif8mia2.webp", "ferrarif8mia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Ferrari",
+            modelo: "488 Spider",
+            precio: 1199,
+            ciudad: "miami",
+            imagenes: ["ferrari488mia.webp", "ferrari488mia2.webp", "ferrari488mia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Ferrari",
+            modelo: "California T",
+            precio: 979,
+            ciudad: "miami",
+            imagenes: ["californiamia.webp", "californiamia2.webp", "californiamia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "McLaren",
+            modelo: "570s Spider",
+            precio: 975,
+            ciudad: "miami",
+            imagenes: ["570mia.webp", "570mia2.webp", "570mia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "McLaren",
+            modelo: "720S Spider",
+            precio: 1699,
+            ciudad: "miami",
+            imagenes: ["720mia.webp", "720mia2.webp", "720mia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Rolls Royce",
+            modelo: "Phantom",
+            precio: 2395,
+            ciudad: "miami",
+            imagenes: ["phantonmia.webp", "phantonmia2.webp", "phantonmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Rolls Royce",
+            modelo: "Cullinan White",
+            precio: 1425,
+            ciudad: "miami",
+            imagenes: ["cullinammia.webp", "cullinammia2.webp", "cullinammia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Bentley",
+            modelo: "Bentayga S Black",
+            precio: 785,
+            ciudad: "miami",
+            imagenes: ["bentaygamia.webp", "bentaygamia2.webp", "bentaygamia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Bentley",
+            modelo: "Continental GT",
+            precio: 970,
+            ciudad: "miami",
+            imagenes: ["continentalmia.webp", "continentalmia2.webp", "continentalmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Porsche",
+            modelo: "911 Carrera Convertible",
+            precio: 485,
+            ciudad: "miami",
+            imagenes: ["911mia.webp", "911mia2.webp", "911mia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Porsche",
+            modelo: "911 Carrera S 992",
+            precio: 489,
+            ciudad: "miami",
+            imagenes: ["992mia.webp", "992mia2.webp", "992mia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Porsche",
+            modelo: "Panamera 4 E-Hybrid White",
+            precio: 305,
+            ciudad: "miami",
+            imagenes: ["panameramia.webp", "panameramia2.webp", "panameramia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Porsche",
+            modelo: "Macan Black",
+            precio: 300,
+            ciudad: "miami",
+            imagenes: ["macanmia.webp", "macanmia2.webp", "macanmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Aston Martin",
+            modelo: "DB12",
+            precio: 955,
+            ciudad: "miami",
+            imagenes: ["db12mia.webp", "db12mia2.webp", "db12mia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Tesla",
+            modelo: "Cybertruck AWD",
+            precio: 470,
+            ciudad: "miami",
+            imagenes: ["truckmia.webp", "truckmia2.webp", "truckmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Chevrolet",
+            modelo: "Corvette Stingray",
+            precio: 379,
+            ciudad: "miami",
+            imagenes: ["corvettewmia.webp", "corvettewmia2.webp", "corvettewmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+                {
+            marca: "Chevrolet",
+            modelo: "Corvette Stingray",
+            precio: 379,
+            ciudad: "miami",
+            imagenes: ["corvetteymia.webp", "corvetteymia2.webp", "corvetteymia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Chevrolet",
+            modelo: "Corvette Stingray",
+            precio: 379,
+            ciudad: "miami",
+            imagenes: ["corvettebmia.webp", "corvettebmia2.webp", "corvettebmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "BMW",
+            modelo: "I8 Roadster Black",
+            precio: 469,
+            ciudad: "miami",
+            imagenes: ["i8mia.webp", "i8mia2.webp", "i8mia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "BMW",
+            modelo: "440i Convertible",
+            precio: 469,
+            ciudad: "miami",
+            imagenes: ["440imia.webp", "440imia2.webp", "440imia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Mercedes",
+            modelo: "Benz G-Class",
+            precio: 469,
+            ciudad: "miami",
+            imagenes: ["gclassmia.webp", "gclassmia2.webp", "gclassmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Mercedes",
+            modelo: "Benz G63 Blue",
+            precio: 745,
+            ciudad: "miami",
+            imagenes: ["g63mia.webp", "g63mia2.webp", "g63mia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Mercedes",
+            modelo: "Maybach S 680",
+            precio: 745,
+            ciudad: "miami",
+            imagenes: ["maybachmia.webp", "maybachmia2.webp", "maybachmia3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Mercedes",
+            modelo: "Maybach S 580",
+            precio: 745,
+            ciudad: "miami",
+            imagenes: ["s580mia.webp", "s580mia2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Mercedes",
+            modelo: "Maybach GLS 600",
+            precio: 745,
+            ciudad: "miami",
+            imagenes: ["gls600mia3.webp", "gls600mia.webp", "gls600mia2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Mercedes",
+            modelo: "Benz C300 Convertible",
+            precio: 745,
+            ciudad: "miami",
+            imagenes: ["c300mia3.webp", "c300mia.webp", "C300mia2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
             marca: "Ferrari",
             modelo: "Purosangue",
             precio: 2499,
@@ -281,8 +537,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Tasas de cambio desde EUR
     const exchangeRates = {
         EUR: 1,
-        USD: 1.15,  // ajusta si tienes datos en tiempo real
-        AED: 4.23
+        USD: 1.18,  // ajusta si tienes datos en tiempo real
+        AED: 4.33
     };
     function formatCurrency(value, currencyCode) {
         return new Intl.NumberFormat('es-ES', {
@@ -323,39 +579,49 @@ document.addEventListener("DOMContentLoaded", () => {
         const cochesFiltrados = coches.filter(coche =>
             coche.ciudad === ciudadSeleccionada &&
             (marcaSeleccionada === "" || coche.marca === marcaSeleccionada) &&
-            coche.precio >= precioMin && coche.precio < precioMax // Aquí corregimos el rango
+            coche.precio >= precioMin && coche.precio < precioMax 
         );
 
         // Mostrar los coches filtrados en la página
         if (cochesFiltrados.length > 0) {
-            listaCoches.innerHTML = cochesFiltrados.map((coche, index) => `
-                <div class="car-profile">
-                    <div class="swiper swiper-${index}">
-                        <div class="swiper-wrapper">
-                            ${coche.imagenes.map(img => `
-                                <div class="swiper-slide">
-                                    <img loading="lazy" src="images/${img}" alt="${coche.marca} ${coche.modelo}">
-                                </div>
-                            `).join("")}
+            listaCoches.innerHTML = cochesFiltrados.map((coche, index) => {
+                // Lógica para mostrar solo EUR y USD si la ciudad es España, de lo contrario, mostrar AED
+                let monedas = `
+                    <strong>${formatCurrency(coche.precio, 'EUR')}</strong> / 
+                    <strong>${formatCurrency(coche.precio * exchangeRates.USD, 'USD')}</strong>
+                `;
+                
+                if (ciudadSeleccionada === 'dubai') {
+                    monedas += ` / <strong>${formatCurrency(coche.precio * exchangeRates.AED, 'AED')}</strong>`;
+                }
+
+                return `
+                    <div class="car-profile">
+                        <div class="swiper swiper-${index}">
+                            <div class="swiper-wrapper">
+                                ${coche.imagenes.map(img => `
+                                    <div class="swiper-slide">
+                                        <img loading="lazy" src="images/${img}" alt="${coche.marca} ${coche.modelo}">
+                                    </div>
+                                `).join("")}
+                            </div>
+                            <!-- Controles -->
+                            <div class="swiper-button-next swiper-button-next-${index}"></div>
+                            <div class="swiper-button-prev swiper-button-prev-${index}"></div>
+                            <div class="swiper-pagination swiper-pagination-${index}"></div>
                         </div>
-                        <!-- Controles -->
-                        <div class="swiper-button-next swiper-button-next-${index}"></div>
-                        <div class="swiper-button-prev swiper-button-prev-${index}"></div>
-                        <div class="swiper-pagination swiper-pagination-${index}"></div>
+                                    
+                        <div class="car-details">
+                            <h2>${coche.marca} ${coche.modelo}</h2>
+                            <p>
+                                Precio por día:<br>
+                                ${monedas}
+                            </p>
+                            <a href="${coche.link}" target="_blank" class="boton-reserva">Reservar por correo</a>
+                        </div>
                     </div>
-                            
-                    <div class="car-details">
-                        <h2>${coche.marca} ${coche.modelo}</h2>
-                        <p>
-                            Precio por día:<br>
-                            <strong>${formatCurrency(coche.precio, 'EUR')}</strong> / 
-                            <strong>${formatCurrency(coche.precio * exchangeRates.USD, 'USD')}</strong> / 
-                            <strong>${formatCurrency(coche.precio * exchangeRates.AED, 'AED')}</strong>
-                        </p>
-                        <a href="${coche.link}" target="_blank" class="boton-reserva">Reservar por correo</a>
-                    </div>
-                </div>
-            `).join("");
+                `;
+            }).join("");
 
             cochesFiltrados.forEach((_, index) => {
                 new Swiper(`.swiper-${index}`, {
