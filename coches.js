@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
-            marca: "Rolls Royce",
+            marca: "Rolls-Royce",
             modelo: "Phantom",
             precio: 2395,
             ciudad: "miami",
@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
-            marca: "Rolls Royce",
+            marca: "Rolls-Royce",
             modelo: "Cullinan White",
             precio: 1425,
             ciudad: "miami",
