@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             marca: "Mercedes",
             modelo: "Benz C300 Convertible",
-            precio: 745,
+            precio: 195,
             ciudad: "miami",
             imagenes: ["c300mia3.webp", "c300mia.webp", "C300mia2.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
