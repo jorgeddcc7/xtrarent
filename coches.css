@@ -71,6 +71,10 @@ main h1 {
     z-index: 2;
 }
 
+.hero-cars {
+    display: none; 
+}
+
 .filters {
     display: flex;
     justify-content: center;
@@ -104,7 +108,7 @@ main h1 {
 }
 
 .car-profile {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.9);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -125,7 +129,9 @@ main h1 {
 }
 
 .car-details h2 {
+    color: #f8c11b;
     font-size: 22px;
+    font-weight: 200;
     margin: 10px 0;
 }
 
@@ -148,6 +154,7 @@ main h1 {
     height: 100%;
     object-fit: cover; 
     z-index: -2;
+    filter: blur(5px);
 }
 
 .hero-content {
@@ -170,6 +177,22 @@ main h1 {
     height: 100%;
     background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad (0.5 = 50% oscuro) */
     z-index: -1;
+}
+
+#mensaje-no-coches {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#mensaje-no-coches:before {
+    content: "No encontramos coches disponibles. Intenta con otra ciudad o marca.";
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #efba19;
 }
 
 .swiper {
@@ -200,6 +223,9 @@ main h1 {
 .swiper-button-next,
 .swiper-button-prev {
     color: #dca911;
+    background-color: rgba(0, 0, 0, 0.3); /* Añadimos un fondo oscuro semi-transparente */
+    border-radius: 20%;
+    padding: 25px;
 }
 
 .swiper-pagination-bullet {
@@ -220,11 +246,12 @@ main h1 {
     color: black;
     text-decoration: none;
     border-radius: 5px;
-    transition: background 0.3s ease;
+    transition: background 0.3s ease, transform 0.3s;
 }
 
 .boton-reserva:hover {
-    background: #b8940f;
+    background: #f8c50d;
+    transform: scale(1.05);
 }
 
 /* FOOTER */
@@ -268,6 +295,14 @@ strong {
 .footer-social a img:hover {
     transform: scale(1.2);
 }
+
+/* MEDIA QUERIES */
+@media (min-width: 1024px) {
+    .car-image img {
+        width: 120%; /* Haz la imagen un 20% más ancha en pantallas grandes */
+    }
+}
+
 @media (max-width: 1200px) {
     .car-image img {
         height: 94%;
@@ -283,6 +318,20 @@ strong {
 @media (max-width: 768px) {
     .car-grid {
         grid-template-columns: 1fr;
+    }
+    .hero-video {
+        display: none;  
+    }
+    .hero-cars {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: url(fondo.webp) no-repeat center center/cover;
+        height: 100vh;
+        background-color: #222;
+        z-index: -1;
     }
 }
 
