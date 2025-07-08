@@ -122,9 +122,9 @@ main h1 {
 }
 
 .car-image img {
+    object-fit: contain;
     width: 100%;
     aspect-ratio: 16 / 9;
-    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -197,7 +197,7 @@ main h1 {
 
 .swiper {
     width: 100%;
-    max-width: 350px;
+    max-width: 500px;
     height: 300px;
     margin-bottom: 1em;
     border-radius: 10px;

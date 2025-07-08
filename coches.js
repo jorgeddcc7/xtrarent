@@ -8,15 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
             modelo: "A1 Sportback",
             precio: 80,
             ciudad: "ibiza",
-            imagenes: ["a1ibiza.png"],
-            link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
-        },
-        {
-            marca: "Mercedes",
-            modelo: "Clase T",
-            precio: 107,
-            ciudad: "malaga",
-            imagenes: ["clasetmalaga.avif"],
+            imagenes: ["a1ibiza.webp"],
             link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
         },
         {
@@ -24,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
             modelo: "Renegade",
             precio: 93,
             ciudad: "malaga",
-            imagenes: ["jeepmalaga.avif"],
+            imagenes: ["renegade.webp"],
             link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
         },
         {
@@ -32,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
             modelo: "A1 Sportback",
             precio: 60,
             ciudad: "mallorca",
-            imagenes: ["a1ibiza.png"],
+            imagenes: ["a1ibiza.webp"],
             link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
         },
         {
@@ -40,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
             modelo: "A5",
             precio: 75,
             ciudad: "mallorca",
-            imagenes: ["a5mallorca.avif"],
+            imagenes: ["a5mallorca.webp"],
             link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
         },
         {
@@ -48,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
             modelo: "Clase A",
             precio: 75,
             ciudad: "mallorca",
-            imagenes: ["claseamallorca.avif"],
+            imagenes: ["claseamallorca.webp"],
             link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
         },
         {
@@ -56,15 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
             modelo: "A1",
             precio: 65,
             ciudad: "mallorca",
-            imagenes: ["a1.avif"],
-            link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
-        },
-        {
-            marca: "Mercedes",
-            modelo: "Clase T",
-            precio: 107,
-            ciudad: "valencia",
-            imagenes: ["clasetmalaga.avif"],
+            imagenes: ["a1mallorca.webp"],
             link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
         },
         {
