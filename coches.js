@@ -4,12 +4,238 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const coches = [
         {
-            marca: "Audi",
-            modelo: "A1 Sportback",
-            precio: 80,
+            marca: "Lamborghini",
+            modelo: "Huracan",
+            precioBaja: 1200,
+            precioAlta: 1500,
             ciudad: "ibiza",
-            imagenes: ["a1ibiza.webp"],
-            link: "https://www.wiberrentacar.com/es/?aff=XTRARENT"
+            imagenes: ["huracanibz.webp", "huracanibz2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Ferrari",
+            modelo: "488 Spider",
+            precioBaja: 1200,
+            precioAlta: 1500,
+            ciudad: "ibiza",
+            imagenes: ["488ibz.webp", "488ibz2.webp", "488ibz3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Lamborghini",
+            modelo: "Aventador SVJ",
+            precioBaja: 2000,
+            precioAlta: 2500,
+            ciudad: "ibiza",
+            imagenes: ["aventadoribz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Lamborghini",
+            modelo: "Huracan Cabrio",
+            precioBaja: 1200,
+            precioAlta: 1500,
+            ciudad: "ibiza",
+            imagenes: ["cabrioibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Ferrari",
+            modelo: "F8",
+            precioBaja: 1500,
+            precioAlta: 1700,
+            ciudad: "ibiza",
+            imagenes: ["f8ibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Ferrari",
+            modelo: "458 Spider",
+            precioBaja: 1100,
+            precioAlta: 1300,
+            ciudad: "ibiza",
+            imagenes: ["458ibz.webp", "458ibz2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Ferrari",
+            modelo: "Portofino M",
+            precioBaja: 1200,
+            precioAlta: 1500,
+            ciudad: "ibiza",
+            imagenes: ["portofinoibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Ferrari",
+            modelo: "599 Fiorano GTB",
+            precioBaja: 800,
+            precioAlta: 900,
+            ciudad: "ibiza",
+            imagenes: ["599ibz.webp", "599ibz2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Mercedes",
+            modelo: "GTC AMG",
+            precioBaja: 900,
+            precioAlta: 900,
+            ciudad: "ibiza",
+            imagenes: ["gtcibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Hummer",
+            modelo: "H2",
+            precioBaja: 200,
+            precioAlta: 280,
+            ciudad: "ibiza",
+            imagenes: ["hummeribz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Porsche",
+            modelo: "Macan",
+            precioBaja: 250,
+            precioAlta: 320,
+            ciudad: "ibiza",
+            imagenes: ["macanibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Mercedes",
+            modelo: "G63",
+            precioBaja: 450,
+            precioAlta: 600,
+            ciudad: "ibiza",
+            imagenes: ["g63ibz.webp", "g63ibz2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Maserati",
+            modelo: "Levante",
+            precioBaja: 350,
+            precioAlta: 450,
+            ciudad: "ibiza",
+            imagenes: ["levanteibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Lamborghini",
+            modelo: "Urus",
+            precioBaja: 1200,
+            precioAlta: 1500,
+            ciudad: "ibiza",
+            imagenes: ["urusibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Lamborghini",
+            modelo: "Gallardo",
+            precioBaja: 700,
+            precioAlta: 800,
+            ciudad: "ibiza",
+            imagenes: ["gallardo.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "BMW",
+            modelo: "M4",
+            precioBaja: 400,
+            precioAlta: 450,
+            ciudad: "ibiza",
+            imagenes: ["m4ibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Mercedes",
+            modelo: "C63 s AMG Cabrio",
+            precioBaja: 400,
+            precioAlta: 500,
+            ciudad: "ibiza",
+            imagenes: ["c63ibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Audi",
+            modelo: "R8",
+            precioBaja: 600,
+            precioAlta: 800,
+            ciudad: "ibiza",
+            imagenes: ["c63ibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Chevrolet",
+            modelo: "Camaro",
+            precioBaja: 400,
+            precioAlta: 420,
+            ciudad: "ibiza",
+            imagenes: ["camaroibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Porsche",
+            modelo: "Carrera S",
+            precioBaja: 250,
+            precioAlta: 350,
+            ciudad: "ibiza",
+            imagenes: ["camaroibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Porsche",
+            modelo: "Carrera S 911 Cabrio",
+            precioBaja: 500,
+            precioAlta: 600,
+            ciudad: "ibiza",
+            imagenes: ["911cabrioibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Jeep",
+            modelo: "Wrangler Cabrio",
+            precioBaja: 200,
+            precioAlta: 280,
+            ciudad: "ibiza",
+            imagenes: ["wrangleribz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "BMW",
+            modelo: "X7 M",
+            precioBaja: 400,
+            precioAlta: 500,
+            ciudad: "ibiza",
+            imagenes: ["x7ibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "BMW",
+            modelo: "Serie 4 Cabrio M",
+            precioBaja: 300,
+            precioAlta: 350,
+            ciudad: "ibiza",
+            imagenes: ["serie4ibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "Audi",
+            modelo: "A5 Cabrio",
+            precioBaja: 250,
+            precioAlta: 280,
+            ciudad: "ibiza",
+            imagenes: ["a5cabrioibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            marca: "",
+            modelo: "Quads",
+            precioBaja: 50,
+            precioAlta: 80,
+            ciudad: "ibiza",
+            imagenes: ["quadsibz.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
             marca: "Jeep",
@@ -518,12 +744,12 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
 
-    // Tasas de cambio desde EUR
     const exchangeRates = {
         EUR: 1,
         USD: 1.18,  // ajusta si tienes datos en tiempo real
         AED: 4.33
     };
+
     function formatCurrency(value, currencyCode) {
         return new Intl.NumberFormat('es-ES', {
             style: 'currency',
@@ -531,7 +757,6 @@ document.addEventListener("DOMContentLoaded", () => {
             minimumFractionDigits: 0
         }).format(value);
     }
-
 
     const listaCoches = document.getElementById("lista-coches");
     const mensajeNoCoches = document.getElementById("mensaje-no-coches");
@@ -563,20 +788,32 @@ document.addEventListener("DOMContentLoaded", () => {
         const cochesFiltrados = coches.filter(coche =>
             coche.ciudad === ciudadSeleccionada &&
             (marcaSeleccionada === "" || coche.marca === marcaSeleccionada) &&
-            coche.precio >= precioMin && coche.precio < precioMax 
+            ((coche.precio >= precioMin && coche.precio <= precioMax) || 
+            (coche.precioBaja >= precioMin && coche.precioAlta <= precioMax))
         );
 
         // Mostrar los coches filtrados en la página
         if (cochesFiltrados.length > 0) {
             listaCoches.innerHTML = cochesFiltrados.map((coche, index) => {
-                // Lógica para mostrar solo EUR y USD si la ciudad es España, de lo contrario, mostrar AED
-                let monedas = `
-                    <strong>${formatCurrency(coche.precio, 'EUR')}</strong> / 
-                    <strong>${formatCurrency(coche.precio * exchangeRates.USD, 'USD')}</strong>
-                `;
-                
-                if (ciudadSeleccionada === 'dubai') {
-                    monedas += ` / <strong>${formatCurrency(coche.precio * exchangeRates.AED, 'AED')}</strong>`;
+                let monedas = "";
+
+                // Si el coche es de Ibiza, mostrar ambos precios (Temporada Baja y Alta)
+                if (coche.ciudad === "ibiza") {
+                    monedas = `
+                        <strong>${formatCurrency(coche.precioBaja, 'EUR')}</strong> (Temporada Baja)
+                        <br>
+                        <strong>${formatCurrency(coche.precioAlta, 'EUR')}</strong> (Temporada Alta)
+                    `;
+                } else {
+                    // Para otras ciudades, mostrar solo el precio estándar
+                    monedas = `
+                        <strong>${formatCurrency(coche.precio, 'EUR')}</strong> / 
+                        <strong>${formatCurrency(coche.precio * exchangeRates.USD, 'USD')}</strong>
+                    `;
+                    
+                    if (ciudadSeleccionada === 'dubai') {
+                        monedas += ` / <strong>${formatCurrency(coche.precio * exchangeRates.AED, 'AED')}</strong>`;
+                    }
                 }
 
                 return `
@@ -594,7 +831,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             <div class="swiper-button-prev swiper-button-prev-${index}"></div>
                             <div class="swiper-pagination swiper-pagination-${index}"></div>
                         </div>
-                                    
                         <div class="car-details">
                             <h2>${coche.marca} ${coche.modelo}</h2>
                             <p>
