@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precioBaja: 600,
             precioAlta: 800,
             ciudad: "ibiza",
-            imagenes: ["c63ibz.webp"],
+            imagenes: ["r8ibz.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precioBaja: 250,
             precioAlta: 350,
             ciudad: "ibiza",
-            imagenes: ["camaroibz.webp"],
+            imagenes: ["carreraibz.webp", "carreraibz2.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
