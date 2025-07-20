@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #443705;
+}
+
+/* Header */
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000; /* Fondo negro para reflejar lujo */
+    color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 10px #111, 0 4px 15px #222;
+    z-index: 10;
+}
+
+header .logo img {
+    width: 150px; /* Ajusta el tamaño de tu logo */
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #d4af37;
+}
+
+nav ul li a:focus {
+    outline: 2px solid #dca911;
+    outline-offset: 2px;
+    background-color: rgba(220, 169, 17, 0.2);
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+main h1 {
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    z-index: 2;
+}
+
+.hero-cars {
+    display: none; 
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    z-index: 2;
+}
+
+.filters select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: white;
+    outline: none;;
+    background-color: #000;
+    text-align: center;
+}
+
+#price-range {
+    width: 217px;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.car-profile {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    transition: transform 0.3s ease, background-color 0.6s ease;
+    z-index: 2;
+}
+
+.car-profile:hover {
+    background-color: #443705cc;
+}
+
+.car-image img {
+    object-fit: contain;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+}
+
+.car-details h2 {
+    color: #f8c11b;
+    font-size: 22px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+.car-details p {
+    margin: 5px 0;
+}
+/* Estilos para el Hero con Video */
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.hero-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -2;
+    filter: blur(5px);
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+}
+
+.hero-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad (0.5 = 50% oscuro) */
+    z-index: -1;
+}
+
+#mensaje-no-coches {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#mensaje-no-coches:before {
+    content: "No encontramos yates disponibles. Intenta con otra ciudad.";
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #efba19;
+}
+
+.swiper {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #dca911;
+    background-color: rgba(0, 0, 0, 0.3); 
+    border-radius: 20%;
+    padding: 25px;
+}
+
+.swiper-pagination-bullet {
+    background: #dca911;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #b8940f;
+}
+
+.boton-reserva {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 5px;
+    font-size: 16px;
+    background: #dca911;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s;
+}
+
+.boton-reserva:hover {
+    background: #f8c50d;
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -4px 10px #111, 0 -4px 15px rgba(34, 34, 34, 0.2);
+    z-index: 1;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+
+.footer-container p {
+    font-size: 16px;
+}
+
+strong {
+    color: #dca911;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a img {
+    width: 25px;
+    transition: transform 0.3s ease;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.2);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1024px) {
+    .car-image img {
+        width: 120%; /* Haz la imagen un 20% más ancha en pantallas grandes */
+    }
+}
+
+@media (max-width: 1200px) {
+    .car-image img {
+        height: 94%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .car-image img {
+        height: 87%;
+    }
+}
+
+@media (max-width: 768px) {
+    .car-grid {
+        grid-template-columns: 1fr;
+    }
+    .hero-video {
+        display: none;  
+    }
+    .hero-cars {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: url(fondo.webp) no-repeat center center/cover;
+        height: 100vh;
+        background-color: #222;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 500px) {
+    body, main, header, footer, .filters, .car-profile {
+        text-align: center;
+    }
+    .hero-video, .hero-overlay {
+        background-size: contain;
+    }
+    .car-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .car-profile {
+        max-width: 97%;
+        width: 100%;
+        margin: 20px 0; 
+    }
+    .filters section {
+        max-width: 50%;
+        text-align: center;
+    }
+    .filters select {
+        font-size: 10px;
+    }
+    #price-range {
+        width: 100px;
+    }
+    header .logo img {
+        width: 80px;
+        position: relative;
+        left: -37px;
+    }
+    nav ul li a {
+        font-size: 10px;
+    }
+    nav ul {
+        padding: 0;
+        margin-left: -40px;
+        gap: 0;
+    }
+}

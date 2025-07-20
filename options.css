@@ -1,0 +1,258 @@
+/* RESET DE MÁRGENES Y PADDING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #000; 
+    font-family: montserrat;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 10px #111, 0 4px 15px #222;
+    z-index: 10;
+}
+
+header .logo img {
+    width: 190px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #d4af37;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 15vh; 
+    padding-top: 10px; 
+}
+
+/* Contenido encima del video */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero-content h1 {
+    font-weight: 200;
+    font-size: 1.7rem; /* Ajuste para mayor visibilidad */
+    margin-bottom: 10px;
+}
+
+.hero-subtext {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 700px; /* Limitar el ancho del texto */
+}
+
+/* CATEGORÍAS */
+.category-selection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+    height: auto; /* Elimino la altura fija */
+    overflow: hidden;
+    margin-top: 7px; /* Ajuste del margen superior */
+}
+
+/* TARJETAS CATEGORÍAS */
+.category-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 100%; /* Ocupa toda la altura disponible en su contenedor */
+}
+
+.category-card a {
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+}
+
+.category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card:hover img {
+    opacity: 0.7;
+}
+
+.category-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.category-info h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.category-info p {
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -4px 10px #111, 0 -4px 15px #2222;
+    z-index: 1;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-container p {
+    font-size: 16px;
+}
+
+strong {
+    color: #dca911;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a img {
+    width: 25px;
+    transition: transform 0.3s ease;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    header .logo img {
+        width: 140px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+    .category-selection {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .category-card {
+        height: auto;
+        aspect-ratio: 16 / 9; /* Más baja pero mantiene proporción visual */
+    }
+
+    .category-info {
+        bottom: 10px;
+        left: 10px;
+        padding: 6px 10px;
+    }
+
+    .category-info h2 {
+        font-size: 18px;
+    }
+
+    .category-info p {
+        font-size: 12px;
+    }
+
+    .hero {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .hero-subtext {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+}
+

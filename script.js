@@ -43,14 +43,15 @@ document.addEventListener("DOMContentLoaded", function () {
         actualizarCiudades(paisSeleccionado); 
     });
 
-    // Función para validar y redirigir
+    // Función para redirigir a options.html con el parámetro ciudad
     function redirigir() {
         const ciudad = ciudadSelect.value;
         if (!ciudad) {
             alert("Por favor, selecciona una ciudad."); 
             return;
         }
-        window.location.href = `coches.html?ciudad=${ciudad}`;
+        // Redirigir a options.html con la ciudad seleccionada
+        window.location.href = `options.html?ciudad=${ciudad}`;
     }
 
     // Redireccionar al hacer submit

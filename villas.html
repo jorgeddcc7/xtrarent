@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <link rel="stylesheet" href="villas.css">
+    <title>Luxury Villa Rentals | XTRA RENT</title>
+    <meta name="description" content="Immerse yourself in elegance and tranquility. XTRA RENT offers handpicked luxury villas with timeless design, privacy, and comfort beyond compare.">
+    <meta name="keywords" content="Luxury villa rental, Exclusive homes, Private villas, Holiday homes, Designer villas, Premium stays, Luxury retreats, XTRA RENT villas">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Exclusive Luxury Villas | XTRA RENT">
+    <meta property="og:description" content="Discover refined escapes with XTRA RENT. Exceptional villas curated for unforgettable stays, offering serenity, sophistication, and space.">
+    <meta property="og:url" content="https://xtrarent.es">
+    <meta property="og:type" content="website">
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LodgingBusiness",
+        "name": "XTRA RENT",
+        "url": "https://xtrarent.es",
+        "logo": "https://xtrarent.es/images/xr.png",
+        "image": "https://xtrarent.es/images/villaexample.webp",
+        "description": "Experience refined living in exclusive villas. Curated spaces designed for rest, celebration, and unforgettable memories, with privacy and style.",
+        "telephone": "+34 640119130",
+        "openingHours": "Mo-Su 08:00-23:00",
+        "priceRange": "$$$",
+        "sameAs": [
+            "https://www.instagram.com/xtrarent/"
+        ]
+    }
+
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favxr.png">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="images/xr.png" alt="Rent A Lux">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Inicio</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contact.html" target="_blank">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <div class="hero-cars"></div>
+        <h1>Encuentra tu villa</h1>
+    
+        <section class="filters">
+            <select id="price-range">
+                <option value="">Precio</option>
+                <option value="0-500">0 - 500€</option>
+                <option value="500-1000">500€ - 1000€</option>
+                <option value="1000-2000">1000€ - 2000€</option>
+                <option value="2000+">+ 2000€</option>
+            </select>
+        </section>
+        <p id="mensaje-no-coches" style="display: none; text-align: center;"></p>
+        <section id="lista-coches" class="car-grid">
+            <!-- Aquí se insertarán los coches con JS -->
+        </section>
+        <video autoplay muted loop class="hero-video" preload="auto">
+            <source src="images/video4.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+        <div class="hero-overlay"></div>
+    </main>        
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 <strong>Xtra Rent </strong>xtrarent.contact@gmail.com</p>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/xtrarent/"><img src="images/ig-logo.webp" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="villas.js"></script>
+</body>
+</html>
