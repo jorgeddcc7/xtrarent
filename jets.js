@@ -2,63 +2,69 @@ document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const ciudadSeleccionada = urlParams.get("ciudad")?.toLowerCase() || "";
 
-    // Lista de Jets
     const jets = [
         {
-            modelo: "Cessna Citation III",
-            precio: "Contact for price: xtrarent.contact@gmail.com",
+            modelo: "Gulfstream GIV",
+            capacidad: 16, 
             ciudad: "dubai",
-            imagenes: ["cesnajet.webp"],
-            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
-        }
+            imagenes: ["/jets/gulfstream.webp", "/jets/gulfstream2.webp", "/jets/gulfstream3.webp"],
+            link: "https://wa.me/+34640119130?text=Hola,%20quiero%20más%20información%20sobre%20el%20jet%20Gulfstream%GIV"
+        },
+        {
+            modelo: "Hawker 4000",
+            capacidad: 10, 
+            ciudad: "dubai",
+            imagenes: ["/jets/hawker4000.webp", "/jets/hawker40002.webp","/jets/hawker40003.webp"],
+            link: "https://wa.me/+34640119130?text=Hola,%20quiero%20más%20información%20sobre%20el%20jet%Hawker%204000"
+        },
+        {
+            modelo: "Hawker 800A",
+            capacidad: 8, 
+            ciudad: "dubai",
+            imagenes: ["/jets/hawker800.webp", "/jets/hawker8002.webp"],
+            link: "https://wa.me/+34640119130?text=Hola,%20quiero%20más%20información%20sobre%20el%20jet%Hawker%800A"
+        },
+        {
+            modelo: "Bombardier Global 6000",
+            capacidad: 13, 
+            ciudad: "dubai",
+            imagenes: ["/jets/bomb6000.webp", "/jets/bomb60002.webp"],
+            link: "https://wa.me/+34640119130?text=Hola,%20quiero%20más%20información%20sobre%20el%20jet%20Bombardier%20Global%206000"
+        },
+        {
+            modelo: "Bombardier Global 5000",
+            capacidad: 13, 
+            ciudad: "dubai",
+            imagenes: ["/jets/bomb5000.webp", "/jets/bomb50002.webp", "/jets/bomb50003.webp"],
+            link: "https://wa.me/+34640119130?text=Hola,%20quiero%20más%20información%20sobre%20el%20jet%20Bombardier%20Global%205000"
+        },
+        {
+            modelo: "Bombardier Global XRS",
+            capacidad: 15, 
+            ciudad: "dubai",
+            imagenes: ["/jets/bombxrs.webp", "/jets/bombxrs2.webp", "/jets/bombxrs3.webp"],
+            link: "https://wa.me/+34640119130?text=Hola,%20quiero%20más%20información%20sobre%20el%20jet%20Bombardier%20Global%20XRS"
+        },
+        {
+            modelo: "Cessna Citation III",
+            capacidad: 8, 
+            ciudad: "dubai",
+            imagenes: ["/jets/cesnajet.webp"],
+            link: "https://wa.me/+34640119130?text=Hola,%20quiero%20más%20información%20sobre%20el%20jet%20Cessna%20Citation%20III"
+        },
     ];
-
-    // Para convertir el precio a formato de moneda
-    function formatCurrency(value, currencyCode) {
-        return new Intl.NumberFormat('es-ES', {
-            style: 'currency',
-            currency: currencyCode,
-            minimumFractionDigits: 0
-        }).format(value);
-    }
 
     const listaJets = document.getElementById("lista-coches");
     const mensajeNoJets = document.getElementById("mensaje-no-coches");
     const precioSelect = document.getElementById("price-range");
 
-    // Filtrar los jets
-    function filtrarJets() {
-        const precioSeleccionado = precioSelect.value;
+    function mostrarJets() {
+        const jetsFiltrados = jets.filter(jet => jet.ciudad === ciudadSeleccionada);
 
-        let precioMin = 0, precioMax = Infinity;
-
-        // Determinar el rango de precios seleccionado
-        if (precioSeleccionado === "0-500") {
-            precioMin = 0;
-            precioMax = 500;
-        } else if (precioSeleccionado === "500-1000") {
-            precioMin = 500;
-            precioMax = 1000;
-        } else if (precioSeleccionado === "1000-2000") {
-            precioMin = 1000;
-            precioMax = 2000;
-        } else if (precioSeleccionado === "2000+") {
-            precioMin = 2000;
-            precioMax = Infinity;
-        }
-
-        // Filtrar los jets por ciudad
-        const jetsFiltrados = jets.filter(jet =>
-            jet.ciudad === ciudadSeleccionada &&
-            jet.precio >= precioMin &&
-            jet.precio <= precioMax
-        );
-
-        // Mostrar los jets filtrados
         if (jetsFiltrados.length > 0) {
             listaJets.innerHTML = jetsFiltrados.map((jet, index) => {
-                let monedas = `
-                    <strong>${formatCurrency(jet.precio, 'EUR')}</strong> 
+                let contactoWhatsApp = `
+                    <strong>Precio: <a href="${jet.link}" target="_blank" style="color: #dca911; text-decoration: underline;">Contáctanos</a></strong>
                 `;
 
                 return `
@@ -78,16 +84,14 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="car-details">
                             <h2>${jet.modelo}</h2>
                             <p>
-                                Precio por día:<br>
-                                ${monedas}
+                                <strong>Pasajeros:</strong> ${jet.capacidad} <br>
+                                ${contactoWhatsApp} <!-- Aquí mostramos el texto con el enlace -->
                             </p>
-                            <a href="${jet.link}" target="_blank" class="boton-reserva">Reservar por correo</a>
                         </div>
                     </div>
                 `;
             }).join("");
 
-            // Inicializar Swiper para cada jet filtrado
             jetsFiltrados.forEach((_, index) => {
                 new Swiper(`.swiper-${index}`, {
                     loop: true,
@@ -109,7 +113,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    filtrarJets();
-
-    precioSelect.addEventListener("change", filtrarJets);
+    mostrarJets();
 });

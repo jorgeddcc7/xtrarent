@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const ciudad = urlParams.get('ciudad');  // Obtenemos el parámetro de ciudad de la URL
+    console.log('Ciudad seleccionada:', ciudad);
 
     // Si no hay ciudad en la URL, redirigimos a la página de inicio
     if (!ciudad) {
