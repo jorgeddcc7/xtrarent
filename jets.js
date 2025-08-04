@@ -5,7 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Lista de Jets
     const jets = [
         {
-            
+            modelo: "Cessna Citation III",
+            precio: "Contact for price: xtrarent.contact@gmail.com",
+            ciudad: "dubai",
+            imagenes: ["cesnajet.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         }
     ];
 
@@ -63,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <div class="swiper-wrapper">
                                 ${jet.imagenes.map(img => `
                                     <div class="swiper-slide">
-                                        <img loading="lazy" src="images/${img}" alt="${jet.marca} ${jet.modelo}">
+                                        <img loading="lazy" src="images/${img}" alt="${jet.modelo}">
                                     </div>
                                 `).join("")}
                             </div>
@@ -72,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <div class="swiper-pagination swiper-pagination-${index}"></div>
                         </div>
                         <div class="car-details">
-                            <h2>${jet.marca} ${jet.modelo}</h2>
+                            <h2>${jet.modelo}</h2>
                             <p>
                                 Precio por día:<br>
                                 ${monedas}
