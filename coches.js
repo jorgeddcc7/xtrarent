@@ -747,7 +747,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const exchangeRates = {
         EUR: 1,
         USD: 1.18,  // ajusta si tienes datos en tiempo real
-        AED: 4.33
+        AED: 4.25
     };
 
     function formatCurrency(value, currencyCode) {
