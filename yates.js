@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 343000, 
             precioHora: null, 
             ciudad: "dubai",
-            imagenes: ["/yates/zaf.webp", "/yates/zaf2.webp", "/yates/zaf3.webp", "/yates/zaf4.webp", "/yates/zaf5.webp", "/yates/zaf6.webp", "/yates/zaf7.webp"],
+            imagenes: ["/yates/dubai/zaf.webp", "/yates/dubai/zaf2.webp", "/yates/dubai/zaf3.webp", "/yates/dubai/zaf4.webp", "/yates/dubai/zaf5.webp", "/yates/dubai/zaf6.webp", "/yates/dubai/zaf7.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 206400, 
             precioHora: 17200,
             ciudad: "dubai",
-            imagenes: ["/yates/skyfall.webp", "/yates/skyfall2.webp", "/yates/skyfall3.webp", "/yates/skyfall4.webp", "/yates/skyfall5.webp", "/yates/skyfall6.webp"],
+            imagenes: ["/yates/dubai/skyfall.webp", "/yates/dubai/skyfall2.webp", "/yates/dubai/skyfall3.webp", "/yates/dubai/skyfall4.webp", "/yates/dubai/skyfall5.webp", "/yates/dubai/skyfall6.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 195600, 
             precioHora: 16300,
             ciudad: "dubai",
-            imagenes: ["/yates/santorini.webp", "/yates/santorini2.webp", "/yates/santorini3.webp", "/yates/santorini4.webp", "/yates/santorini5.webp"],
+            imagenes: ["/yates/dubai/santorini.webp", "/yates/dubai/santorini2.webp", "/yates/dubai/santorini3.webp", "/yates/dubai/santorini4.webp", "/yates/dubai/santorini5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 171600, 
             precioHora: 14300,
             ciudad: "dubai",
-            imagenes: ["/yates/suffuriya.webp", "/yates/suffuriya2.webp", "/yates/suffuriya3.webp", "/yates/suffuriya4.webp", "/yates/suffuriya5.webp"],
+            imagenes: ["/yates/dubai/suffuriya.webp", "/yates/dubai/suffuriya2.webp", "/yates/dubai/suffuriya3.webp", "/yates/dubai/suffuriya4.webp", "/yates/dubai/suffuriya5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 171600, 
             precioHora: 14300,
             ciudad: "dubai",
-            imagenes: ["/yates/suffuriya.webp", "/yates/suffuriya2.webp", "/yates/suffuriya3.webp", "/yates/suffuriya4.webp", "/yates/suffuriya5.webp"],
+            imagenes: ["/yates/dubai/suffuriya.webp", "/yates/dubai/suffuriya2.webp", "/yates/dubai/suffuriya3.webp", "/yates/dubai/suffuriya4.webp", "/yates/dubai/suffuriya5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 171600, 
             precioHora: 14300,
             ciudad: "dubai",
-            imagenes: ["/yates/lucien.webp", "/yates/lucien2.webp", "/yates/lucien3.webp", "/yates/lucien4.webp", "/yates/lucien5.webp"],
+            imagenes: ["/yates/dubai/lucien.webp", "/yates/dubai/lucien2.webp", "/yates/dubai/lucien3.webp", "/yates/dubai/lucien4.webp", "/yates/dubai/lucien5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 246000, 
             precioHora: 20500,
             ciudad: "dubai",
-            imagenes: ["/yates/legende.webp", "/yates/legende2.webp", "/yates/legende3.webp", "/yates/legende4.webp", "/yates/legende6.webp", "/yates/legende7.webp"],
+            imagenes: ["/yates/dubai/legende.webp", "/yates/dubai/legende2.webp", "/yates/dubai/legende3.webp", "/yates/dubai/legende4.webp", "/yates/dubai/legende6.webp", "/yates/dubai/legende7.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 171600, 
             precioHora: 14300,
             ciudad: "dubai",
-            imagenes: ["/yates/lucien.webp", "/yates/lucien2.webp", "/yates/lucien3.webp", "/yates/lucien4.webp", "/yates/lucien5.webp"],
+            imagenes: ["/yates/dubai/lucien.webp", "/yates/dubai/lucien2.webp", "/yates/dubai/lucien3.webp", "/yates/dubai/lucien4.webp", "/yates/dubai/lucien5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 94800, 
             precioHora: 7900,
             ciudad: "dubai",
-            imagenes: ["/yates/dolcevita.webp", "/yates/dolcevita2.webp", "/yates/dolcevita3.webp", "/yates/dolcevita4.webp", "/yates/dolcevita5.webp", "/yates/dolcevita6.webp", ],
+            imagenes: ["/yates/dubai/dolcevita.webp", "/yates/dubai/dolcevita2.webp", "/yates/dubai/dolcevita3.webp", "/yates/dubai/dolcevita4.webp", "/yates/dubai/dolcevita5.webp", "/yates/dubai/dolcevita6.webp", ],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 103200, 
             precioHora: 8600,
             ciudad: "dubai",
-            imagenes: ["/yates/khalili.webp", "/yates/khalili2.webp", "/yates/khalili3.webp", "/yates/khalili4.webp", "/yates/khalili5.webp"],
+            imagenes: ["/yates/dubai/khalili.webp", "/yates/dubai/khalili2.webp", "/yates/dubai/khalili3.webp", "/yates/dubai/khalili4.webp", "/yates/dubai/khalili5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 60000, 
             precioHora: 5000,
             ciudad: "dubai",
-            imagenes: ["/yates/medusa.webp", "/yates/medusa2.webp", "/yates/medusa3.webp", "/yates/medusa4.webp"],
+            imagenes: ["/yates/dubai/medusa.webp", "/yates/dubai/medusa2.webp", "/yates/dubai/medusa3.webp", "/yates/dubai/medusa4.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 48000, 
             precioHora: 4000,
             ciudad: "dubai",
-            imagenes: ["/yates/matrix.webp", "/yates/matrix2.webp", "/yates/matrix3.webp", "/yates/matrix4.webp", "/yates/matrix5.webp"],
+            imagenes: ["/yates/dubai/matrix.webp", "/yates/dubai/matrix2.webp", "/yates/dubai/matrix3.webp", "/yates/dubai/matrix4.webp", "/yates/dubai/matrix5.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 21600, 
             precioHora: 1800,
             ciudad: "dubai",
-            imagenes: ["/yates/serenity.webp", "/yates/serenity2.webp", "/yates/serenity3.webp", "/yates/serenity4.webp"],
+            imagenes: ["/yates/dubai/serenity.webp", "/yates/dubai/serenity2.webp", "/yates/dubai/serenity3.webp", "/yates/dubai/serenity4.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
         {
@@ -114,13 +114,68 @@ document.addEventListener("DOMContentLoaded", () => {
             precio: 12000, 
             precioHora: 1000,
             ciudad: "dubai",
-            imagenes: ["/yates/thunder3.webp", "/yates/thunder2.webp", "/yates/thunder.webp", "/yates/thunder4.webp"],
+            imagenes: ["/yates/dubai/thunder3.webp", "/yates/dubai/thunder2.webp", "/yates/dubai/thunder.webp", "/yates/dubai/thunder4.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            modelo: "Cranchi A46",
+            precio: 11956.8, 
+            precioHora: null,
+            ciudad: "ibiza",
+            imagenes: ["/yates/ibiza/cranchi.webp", "/yates/ibiza/cranchi2.webp", "/yates/ibiza/cranchi3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            modelo: "De Antonio D42",
+            precio: 8670.8, 
+            precioHora: null,
+            ciudad: "ibiza",
+            imagenes: ["/yates/ibiza/antonio.webp", "/yates/ibiza/antonio2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            modelo: "Alfastreet Marine 28",
+            precio: 5512, 
+            precioHora: null,
+            ciudad: "ibiza",
+            imagenes: ["/yates/ibiza/alfastreet.webp", "/yates/ibiza/alfastreet2.webp", "/yates/ibiza/alfastreet3.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            modelo: "De Antonio 32",
+            precio: 5936, 
+            precioHora: null,
+            ciudad: "ibiza",
+            imagenes: ["/yates/ibiza/donatello.webp", "/yates/ibiza/donatello2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            modelo: "Key Largo 27",
+            precio: 3392, 
+            precioHora: null,
+            ciudad: "ibiza",
+            imagenes: ["/yates/ibiza/keylargo.webp", "/yates/ibiza/keylargo2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            modelo: "Sterk 31 WB",
+            precio: 4240, 
+            precioHora: null,
+            ciudad: "ibiza",
+            imagenes: ["/yates/ibiza/sterk.webp", "/yates/ibiza/sterk2.webp"],
+            link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
+        },
+        {
+            modelo: "Ranieri 330 LX",
+            precio: 4240, 
+            precioHora: null,
+            ciudad: "ibiza",
+            imagenes: ["/yates/ibiza/ranieri.webp", "/yates/ibiza/ranieri2.webp"],
             link: "mailto:xtrarent.contact@gmail.com?subject=Car%20Rental"
         },
     ];
 
-    // Para convertir el precio a formato de moneda
-    function formatCurrency(value, currencyCode) {
+function formatCurrency(value, currencyCode) {
         return new Intl.NumberFormat('es-ES', {
             style: 'currency',
             currency: currencyCode,
@@ -128,7 +183,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }).format(value);
     }
 
-    // Convertir precio de AED a EUR
     function convertirAEDenEUR(aed) {
         return aed / tipoCambio;
     }
@@ -137,13 +191,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const mensajeNoYates = document.getElementById("mensaje-no-coches");
     const precioSelect = document.getElementById("price-range");
 
-    // Filtrar los yates
     function filtrarYates() {
         const precioSeleccionado = precioSelect.value;
 
         let precioMin = 0, precioMax = Infinity;
 
-        // Determinar el rango de precios seleccionado
         if (precioSeleccionado === "0-50000") {
             precioMin = 0;
             precioMax = 50000;
@@ -158,28 +210,29 @@ document.addEventListener("DOMContentLoaded", () => {
             precioMax = Infinity;
         }
 
-        // Filtrar los yates por ciudad y precio por día (usamos yate.precio para el filtro)
         const yatesFiltrados = yates.filter(yate =>
             yate.ciudad === ciudadSeleccionada &&
             yate.precio >= precioMin &&
             yate.precio <= precioMax
         );
 
-        // Mostrar los yates filtrados
         if (yatesFiltrados.length > 0) {
             listaYates.innerHTML = yatesFiltrados.map((yate, index) => {
-                // Precio por día en AED y su conversión a EUR
-                const precioPorDiaAED = formatCurrency(yate.precio, 'AED');
-                const precioPorDiaEUR = formatCurrency(convertirAEDenEUR(yate.precio), 'EUR');
+                let precioPorDiaHTML = "";
+                let precioPorHoraHTML = "";
 
-                // Si el precio por hora existe, mostrarlo. Si no, solo mostrar precio por día.
-                let precioPorHoraHTML = '';
-                if (yate.precioHora !== null) {
-                    const precioPorHoraAED = formatCurrency(yate.precioHora, 'AED');
-                    const precioPorHoraEUR = formatCurrency(convertirAEDenEUR(yate.precioHora), 'EUR');
-                    precioPorHoraHTML = `
-                        Precio por hora: ${precioPorHoraAED} / ${precioPorHoraEUR}<br>
-                    `;
+                if (ciudadSeleccionada === "dubai") {
+                    precioPorDiaHTML = `Precio por día: ${formatCurrency(yate.precio, 'AED')}`;
+                    if (yate.precioHora !== null) {
+                        precioPorHoraHTML = `Precio por hora: ${formatCurrency(yate.precioHora, 'AED')}<br>`;
+                    }
+                } else if (ciudadSeleccionada === "ibiza") {
+                    const precioEUR = convertirAEDenEUR(yate.precio);
+                    precioPorDiaHTML = `Precio por día: ${formatCurrency(precioEUR, 'EUR')}`;
+                    if (yate.precioHora !== null) {
+                        const precioHoraEUR = convertirAEDenEUR(yate.precioHora);
+                        precioPorHoraHTML = `Precio por hora: ${formatCurrency(precioHoraEUR, 'EUR')}<br>`;
+                    }
                 }
 
                 return `
@@ -200,7 +253,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h2>${yate.modelo}</h2>
                             <p>
                                 ${precioPorHoraHTML}
-                                Precio por día: ${precioPorDiaAED} / ${precioPorDiaEUR}
+                                ${precioPorDiaHTML}
                             </p>
                             <a href="${yate.link}" target="_blank" class="boton-reserva">Reservar por correo</a>
                         </div>
@@ -208,7 +261,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 `;
             }).join("");
 
-            // Inicializar Swiper para cada yate filtrado
             yatesFiltrados.forEach((_, index) => {
                 new Swiper(`.swiper-${index}`, {
                     loop: true,
@@ -231,6 +283,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     filtrarYates();
-
     precioSelect.addEventListener("change", filtrarYates);
 });
